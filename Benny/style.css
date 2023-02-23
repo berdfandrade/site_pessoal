@@ -1,0 +1,202 @@
+/* Google fonts import  */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    /* ------ Cores ------ */
+    --body-color: rgb(255, 253, 253);
+
+    --text-color: #707070;
+
+}
+
+.container-line-cima{
+
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  
+  border-bottom: 1px solid rgb(179, 179, 179);
+  width: 800px;
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  
+  .content {
+    text-align: center;
+    cursor: pointer;
+    max-width: 800px;
+    width: 800px;
+    height: 90px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 20px;
+    border: 0.5px solid rgb(131, 131, 131);
+    background-color: transparent;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+  }
+
+  .content:hover{
+    color: white; 
+    background-color: #181818;
+    height: 100px;
+  }
+
+  .container-line{
+    border-bottom: 1px solid rgb(179, 179, 179);
+    margin-top: 50px;
+    width: 800px;
+  }
+  
+    /* Content responsivo */
+    @media (max-width: 768px) {
+    .content {
+      max-width: 95%;
+      padding: 10px;
+    }
+    /* Linha dotted */
+    .container-line-cima,
+    .container-line{
+      max-width: 70%;
+    }
+  }
+
+  .content-title{
+    font-weight: 400;
+    text-align: left;
+    font-size: 19px;
+  }
+  
+  .content-text{
+    text-align: left;
+    font-size: 16px;
+    color: #8b8b8b;
+  }
+
+  .content-text:hover{
+    color: white;
+  }
+
+body {
+    background: var(--body-color);
+    height: 100vh;
+}
+
+.expansivel {
+  height: 90;
+  overflow: hidden;
+  transition: height 0.9s ease-out;
+}
+
+.expandida {
+  height: 900px;
+  color: #000000;
+}
+
+.container-img{
+  position: relative;
+
+}
+
+.benny{
+   text-align: center;
+   display: block;
+   position: relative;
+   height: 120px;
+   width: 120px;
+   margin-left: auto;
+   z-index: 2;
+   margin-right: auto;
+   margin-top: 80px;
+   animation: float 2.5s ease-in-out infinite;
+}
+
+.nuvem {
+  text-align: center;
+  position: relative;
+  display: block;
+  height: 120px;
+  width: auto; 
+  margin-left: auto;
+  margin-right: auto;
+  animation: float-nuvem 6s ease-in-out infinite;
+}
+
+.imagem-container .nuvem:first-child {
+  position: absolute; /* Define a posição como absoluta */
+  top: 50%; /* Define a distância em relação ao topo */
+  left: 50%; /* Define a distância em relação à esquerda */
+  transform: translate(-50%, -50%); /* Centraliza a imagem */
+  z-index: 1; /* Define a ordem de empilhamento */
+}
+
+/* Animação da nuvem */
+@keyframes float-nuvem {
+  0% {
+    transform: translateY(0px);
+    
+  }
+  50% {
+    transform: translateY(-5px);
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateY(0px);
+    transform: translateX(0px);
+  }
+}
+
+
+/* Animação de flutuar */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+h3{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
