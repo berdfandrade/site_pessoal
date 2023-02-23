@@ -9,7 +9,7 @@ O que você encontrará neste site?
 Neste site, você encontrará informações sobre mim, minhas habilidades, projetos e experiências profissionais. Além disso, também compartilho alguns artigos sobre desenvolvimento web e tecnologia em geral.
 Tecnologias utilizadas
 
-###Este site foi desenvolvido utilizando as seguintes tecnologias:
+## Este site foi desenvolvido utilizando as seguintes tecnologias:
 
     HTML
     CSS
