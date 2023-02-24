@@ -207,7 +207,7 @@ h3 {
 /* NAV-BAR */
 
 nav {
-  background-color: #5c5b5b;
+  background-color: #d3d3d3;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -246,3 +246,6 @@ nav ul li a {
   display: inline-block;
 
 }
+
+
+
