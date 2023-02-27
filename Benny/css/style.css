@@ -207,20 +207,27 @@ h3 {
 /* NAV-BAR */
 
 nav {
-  background-color: #d3d3d3;
+  top: 0;
+  background-color: #858585;
   color: #ffffff;
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
+  height: 40px;
   padding: 10px;
+  position: fixed;
+  z-index: 99;
 }
 
 nav ul {
+  margin-top: 10px;
   display: flex;
   list-style: none;
 }
   
 nav ul li {
+
   font-size: large;
   margin-top: 10px;
   margin: 0 10px;
