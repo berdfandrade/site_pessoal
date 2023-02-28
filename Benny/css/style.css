@@ -19,6 +19,10 @@
   margin-top: 130px;
 }
 
+.imagem-container-paginas {
+  margin-top: 200px;
+}
+
 .benny {
   text-align: center;
   display: block;
@@ -41,6 +45,7 @@
   margin-right: auto;
   animation: float-nuvem 4s ease-in-out infinite;
 }
+
 
 .container-quote {
   display: flex;
@@ -277,3 +282,16 @@ nav ul li a {
 
 
 /* Habilidades */
+
+
+.container-habilidades {
+  border: 1px solid #ddd;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  max-width: 800px;
+  padding: 10px;
+  border-radius: 5px;
+
+}
