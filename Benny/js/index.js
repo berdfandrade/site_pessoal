@@ -19,3 +19,9 @@ container.addEventListener('click', function () {
   console.log('você blaoskoks'); 
 }); 
 
+
+const skill = document.getElementsById('habilidade')
+
+skill.addEventListener('click', function() {
+  alert('funcits')
+});
