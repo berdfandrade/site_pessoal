@@ -9,3 +9,13 @@ card.addEventListener('click', function() {
   alert('Você clicou no card!');
 });
 
+
+// Aqui estou transformando o container em um objeto para ser manipulado pelo JS.
+
+
+const container = document.getElementById('aqui');
+
+container.addEventListener('click', function () {
+  console.log('você blaoskoks'); 
+}); 
+
