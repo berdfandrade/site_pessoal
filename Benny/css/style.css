@@ -209,13 +209,13 @@ h3 {
 
 nav {
   top: 0;
-  background-color: #858585;
+  background-color: #363636;
   color: #ffffff;
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  height: 40px;
+  height: 64px;
   padding: 10px;
   position: fixed;
   z-index: 99;
@@ -229,7 +229,7 @@ nav ul {
   
 nav ul li {
 
-  font-size: large;
+  font-size: 20px;
   margin-top: 10px;
   margin: 0 10px;
 }
@@ -245,27 +245,35 @@ nav ul li a {
 
 /* Página de habilidades */
 
-.descricao-bernardo {
-  margin-left: auto;
-  margin-right: auto;
-  width: 800px;
-  font-size: 20px;
-  text-align: left;
-  text-justify: auto;
-}
+
 
 .insignas{
   display: inline-block;
 
 }
 
-/* Habilidades */
+/* Footer */
 
-.container-cards {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 800px;
-  align-items: center;
+.footer {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px dashed #d1d1d1;
+  font-size: 14px;
+  margin-top: 50px;
 
 }
+
+.footer p {
+  margin: 0;
+  line-height: 1.5;
+  color: #666;
+}
+
+.footer a {
+  color: #333;
+  text-decoration: none;
+}  
+
+
+/* Habilidades */
