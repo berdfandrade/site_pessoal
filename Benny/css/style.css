@@ -290,6 +290,7 @@ nav ul li a {
 }
 
 .footer-paginas{
+  bottom: 0;
   background-color: #ffffff;
   padding: 20px;
   text-align: center;
