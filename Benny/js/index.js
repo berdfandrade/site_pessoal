@@ -25,3 +25,12 @@ const skill = document.getElementsById('habilidade')
 skill.addEventListener('click', function() {
   alert('funcits')
 });
+
+
+const skills = document.querySelectorAll('.skill');
+
+skills.forEach(skill => {
+  skill.addEventListener('click', () => {
+    skill.classList.toggle('active');
+  });
+});

@@ -1,0 +1,59 @@
+
+
+
+.skill-tree {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .skill {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .skill:hover {
+    transform: scale(1.1);
+  }
+  
+  .skill-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .skill-level {
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .skill-body {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 1;
+  }
+  
+  .skill.active .skill-body {
+    display: block;
+  }
+  
