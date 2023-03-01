@@ -289,6 +289,17 @@ nav ul li a {
   margin-top: 50px;
 }
 
+.footer-paginas{
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px dashed #d1d1d1;
+  font-size: 14px;
+  text-justify: auto;
+  padding-top: 50px;
+  line-height: 0.4;
+}
+
 .footer p {
   margin: 0;
   line-height: 1.5;
