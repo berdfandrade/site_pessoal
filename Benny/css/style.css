@@ -213,7 +213,7 @@ h3 {
 
 nav {
   top: 0;
-  background-color: #ffffff;
+  background-color: white;
   color: #000000;
   border-bottom: 1px dashed #d1d1d1;
   display: flex;
@@ -230,6 +230,14 @@ nav .logo {
   font-size: 20px;
 }
 
+nav .img-logo{
+  width: auto;
+  margin-left: 5px;
+  height: 30px;
+  cursor: pointer;
+}
+
+
 nav ul {
   margin-top: 10px;
   display: flex;
@@ -243,7 +251,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #000000;
+  color: #616161;
   text-decoration: none;
 }
 
@@ -315,21 +323,8 @@ nav ul li a {
 
 /* Certificações */
 
-
-.sessao-certificado{
-  
-  margin-top: 120px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  height: 800px;
-  width: 100%;
-  border-top: rgba(102, 102, 102, 0.8);
-  background-color: #dfdfdf;
-}
-
-
 .title-certificado{
+  text-align: center;
   font-size: 19px;
   background-color: #ffffff;  
   border: 1px solid rgb(168, 168, 168, 0.5);
@@ -343,11 +338,22 @@ nav ul li a {
   
 }
 
+.sessao-certificado{
+  
+  margin-top: 100px;
+  display: flex;
+  height: 800px;
+  border-top: rgba(102, 102, 102, 0.8);
+  background-color: #dfdfdf;
+}
+
+
 .certificado{
-  align-items: center;
-  width: auto;
-  height: 200px;
+  display: inline;
   margin-right: auto;
-  margin-top: 50px;
+  align-items: center;
+  height: 200px;
+  width: auto;
+  margin-top: 70px;
  
 }
