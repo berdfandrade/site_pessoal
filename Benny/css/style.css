@@ -332,7 +332,7 @@ nav ul li a {
   width: 200px;
   height: 35px;
   border-radius: 5px;
-  margin-top: -20px;
+  margin-top: -70px;
   margin-left: 10%;
   margin-right: auto;
   
@@ -351,9 +351,19 @@ nav ul li a {
 .certificado{
   display: inline;
   margin-right: auto;
+  margin: 15px;
   align-items: center;
   height: 200px;
   width: auto;
-  margin-top: 70px;
- 
+  margin-top: 60px;
+  transition: 0.5s;
+}
+
+.certificado:hover{
+  cursor: pointer;
+  scale: 120%;
+}
+
+certificado title{
+  font-size: 15px;
 }
