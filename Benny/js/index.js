@@ -34,3 +34,5 @@ skills.forEach(skill => {
     skill.classList.toggle('active');
   });
 });
+
+

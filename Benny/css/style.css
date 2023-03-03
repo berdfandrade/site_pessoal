@@ -298,7 +298,7 @@ nav ul li a {
 }
 
 .footer-paginas{
-  bottom: 0;
+  height: 200px;
   background-color: #ffffff;
   padding: 20px;
   text-align: center;
@@ -398,6 +398,7 @@ background-color: rgb(236, 236, 236);
   margin-top: -70px;
   margin-left: 10%;
   margin-right: auto;
+  transition: 1s;
   
 }
 
@@ -422,7 +423,6 @@ background-color: rgb(236, 236, 236);
   margin-left: auto;
   margin-right: auto;
  }
-
 }
 
 .sessao-certificado{
@@ -458,18 +458,47 @@ background-color: rgb(236, 236, 236);
   align-items: center;
   height: 200px;
   width: auto;
+  box-shadow:rgb(168, 168, 168, 0.5);
   margin-top: 60px;
   margin-bottom: 30px;
   transition: 0.5s;
 }
+
+.certificado-alura{
+  display: inline;
+  margin-right: auto;
+  margin: 15px;
+  align-items: center;
+  height: 200px;
+  border-radius: 5px;
+  width: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+
+.certificado-alura:hover{
+  transform:rotateX(180deg);
+  cursor: pointer;
+  scale: 120%;
+}
+
+.certificado-alura:active{
+  transform:rotateY(180deg);
+  color: #000;
+  cursor: pointer;
+  scale: 120%;
+}
+
 
 .certificado:hover{
   cursor: pointer;
   scale: 120%;
 }
 
-.medalha{
-  height: 30px;
-  width: auto;
-  z-index: 99;
-}
+@media (max-width: 768px) {
+  .certificado,
+  .certificado-alura{
+   margin-bottom: 10px;
+  }
+ }
