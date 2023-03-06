@@ -1,9 +1,9 @@
 
 
-const skills = document.querySelectorAll('.skill');
+const accordionBtn = document.querySelector('.accordion-btn');
+const accordionContent = document.querySelector('.paragrafo-container');
+const accordion = document.querySelector('.continer-habilidade');
 
-skills.forEach(skill => {
-  skill.addEventListener('click', () => {
-    skill.classList.toggle('active');
-  });
+accordionContent.addEventListener('click', () => {
+  accordion.classList.toggle('active');
 });
