@@ -35,6 +35,7 @@
   animation: float 3.5s ease-in-out infinite;
 }
 
+
 .nuvem {
   text-align: center;
   margin-top: 100px;
@@ -44,6 +45,15 @@
   margin-left: auto;
   margin-right: auto;
   animation: float-nuvem 5s ease-in-out infinite;
+}
+
+.descricao-index{
+  margin-top: 10px;
+  width: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .descricao-pagina{
