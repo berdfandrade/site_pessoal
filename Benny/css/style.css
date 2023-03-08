@@ -342,7 +342,7 @@ nav ul li a {
 /* Página sobre */
 
 .descricao-bernardo {
-  margin-left: auto;
+margin-left: auto;
 margin-right: auto;
 width: 800px;
 display: flex;
@@ -352,55 +352,19 @@ text-justify: auto;
 }
 
 .div-faq {
-display: block;
+display: flex;
 background-color: rgb(241, 241, 241);
+align-items: center;
+justify-content: center;
 padding: 50px;
-width: 100%;
 height: auto;
-text-align: center;
 margin-left: 0;
 margin-right: 0;
 border-top: 1px solid rgb(233, 233, 233);
 border-bottom: 2px solid rgb(233, 233, 233);
 margin-top: 30px;
+
 }
-
-
-.accordion-sobre {
-padding: 10px;
-text-align: center;
-margin-top: 2px;
-margin-left: auto;
-margin-right: auto;
-border-radius: 5px;
-border: 1px solid rgb(207, 207, 207);
-background-color: white;
-width: 798px;
-height: 45px;
-}
-
-.content-accordion-sobre {
-text-align: left;
-font-size: 18px;
-font-weight: bolder;
-}
-
-@media (max-width: 768px) {
-.accordion-sobre {
-  width: 100%;
-}
-
-.descricao-bernardo{
-  width: 80%;
-}
-}
-
-.accordion-sobre:hover {
-cursor: pointer;
-background-color: rgb(236, 236, 236);
-}
-
-
 
 
 /* Certificações */
@@ -517,106 +481,4 @@ background-color: rgb(236, 236, 236);
   }
  }
 
-
-/* Sobre */
-
-
-
-*, *:after, *:before {
-	box-sizing: border-box;
-}
-
-:root {
-	font-size: 16px;
-}
-
-/* body {
-	font-family: "Inter", sans-serif;
-	line-height: 1.5;
-	min-height: 100vh;
-	font-size: 1.25rem;
-} */
-
-*:focus {
-	outline: none;
-}
-/* 
-/* body > div {
-	width: 90%;
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 5rem; 
-	margin-bottom: 5rem;
-} */
-
-details div {
-	border-left: 2px dashed #7e7e7e;
-	border-right: 2px dashed #7e7e7e;
-	border-bottom: 2px dashed #7e7e7e;
-	padding: 1.5em;
-}
-
-details div > * + * {
-	margin-top: 1.5em;
-}
-
-details + details {
-	margin-top: .5rem;
-}
-
-summary {
-	list-style: none;
-}
-
-summary::-webkit-details-marker {
-	display: none;
-}
-
-summary {
-	border: 1px solid #000;
-	padding: .75em 1em;
-	cursor: pointer;
-	position: relative;
-	padding-left: calc(1.75rem + .75rem + .75rem);
-}
-
-summary:before {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	left: .75rem;
-	content: "↓";
-	width: 1.75rem;
-	height: 1.75rem;
-	background-color: #000;
-	color: #FFF;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	flex-shrink: 0;
-}
-
-details[open] summary {
-	background-color: #eee;
-}
-
-details[open] summary:before {
-	content: "↑";
-}
-
-summary:hover {
-	background-color: #eee;
-}
-
-a {
-	color: inherit;
-	font-weight: 600;
-	text-decoration: none;
-	box-shadow: 0 1px 0 0;
-}
-
-a:hover {
-	box-shadow: 0 3px 0 0;
-}
 
