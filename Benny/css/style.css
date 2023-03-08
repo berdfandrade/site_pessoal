@@ -46,6 +46,15 @@
   animation: float-nuvem 5s ease-in-out infinite;
 }
 
+.descricao-pagina{
+  margin-top: 10px;
+  width: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2px;
+}
+
 .container-quote {
   display: flex;
   margin-right: auto;
