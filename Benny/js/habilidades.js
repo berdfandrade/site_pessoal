@@ -11,25 +11,33 @@ js.addEventListener('click', function(){
 
 const html = document.getElementById('HTML')
 
-js.addEventListener('click', function(){
-    window.open('/sub-paginas/javascript.html')
+html.addEventListener('click', function(){
+    window.open('/sub-paginas/html.html')
 });
 
 const css = document.getElementById('CSS')
 
-js.addEventListener('click', function(){
-    window.open('/sub-paginas/javascript.html')
+css.addEventListener('click', function(){
+    window.open('/sub-paginas/css.html')
 });
 
 const computacao = document.getElementById('COMP')
 
 computacao.addEventListener('click', function(){
-    window.open('/sub-paginas/computacao.html')
+    window.open('/sub-paginas/comp.html')
 })
 
 
-const python = document.getElementById('PY')
+const python = document.getElementById('PYTHON')
 
-computacao.addEventListener('click', function(){
+python.addEventListener('click', function(){
     window.open('/sub-paginas/python.html')
+})
+
+
+
+const c = document.getElementById('C')
+
+c.addEventListener('click', function(){
+    window.open('/sub-paginas/c.html')
 })

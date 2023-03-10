@@ -3,6 +3,7 @@
 
 
 .container-sobre{
+    width: 80%;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -41,32 +42,18 @@
     border-bottom: 1px dashed rgb(255, 255, 255);
 }
 
-.card-sobre-idade:hover{
-    flex: 1 0 20%;
-    }
+
 
 
 .card-sobre-conteudo-idade{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 4px;
     text-align: center;
     color: rgb(255, 235, 235);;
     font-size: 80px;
 }
 
 
-/* Card pessoal */
-.card-sobre-pessoal{
-    transition: 0.5s;
-    padding: 10px;
-    height: 200px;
-    border-radius: 5px;
-    background-color: #93ebff;
-    flex: 1 0 250px;
-}
- .card-sobre-pessoal:hover{
-
-    flex: 1 0 25%;
-}
 
 
 /* Card hobbies */
@@ -79,9 +66,7 @@
     background-color: #b8f2ff;
     flex: 1 0 250px;
 }
-    .card-sobre-pessoal:hover{
-    flex: 1 0 25%;
-}
+
 
 /* Sobre esse site */
 .card-sobre-hobbies{
@@ -92,9 +77,7 @@
     background-color: #b8f2ff;
     flex: 1 0 250px;
 }
-    .card-sobre-pessoal:hover{
-    flex: 1 0 25%;
-}
+
 
 
 /* Card sobre mim */
@@ -119,9 +102,7 @@
     flex: 1 0 300px;
 }
 
-.card-sobre-mim:hover{
-    flex: 1 0 40%;
-}
+
 
 /* Card formação */
 .card-sobre-formacao{
@@ -133,20 +114,52 @@
     flex: 1 0 200px;
 }
 
-.card-sobre-formacao:hover{
-    flex: 1 0 20%;
+.card-sobre-curiosidades{
+    transition: 0.5s;
+    padding: 10px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #83c3ff;
+    flex: 1 0 200px;
 }
+
+.card-sobre-idiomas{
+    transition: 0.5s;
+    padding: 10px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #dff0ff;
+    flex: 1 0 200px;
+}
+
+.card-sobre-alem{
+    transition: 0.5s;
+    padding: 10px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #f1dcff;
+    flex: 1 0 200px;
+}
+
+
+/* Card Sobre o site */
+.card-sobre-pessoal{
+    transition: 0.5s;
+    padding: 10px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #fff59b;
+    flex: 1 0 250px;
+}
+
 
 
 /* Responsivo... */
 @media (max-width: 768px) {
     .container-sobre{
-        max-width: 90%;
+        gap: 10px;
+        width: 90%;
     }
-    .card-sobre-mim:not(hover),
-    .card-sobre-formacao:not(hover),
-    .card-sobre-idade:not(hover){
-        width: 100%;
-    }
+
 }  
 
