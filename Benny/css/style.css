@@ -296,7 +296,8 @@ nav ul li a {
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  max-width: 800px;
+  width: 80%;
 }
 
 @media (max-width: 768px) {
