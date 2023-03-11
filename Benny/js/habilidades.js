@@ -1,43 +1,37 @@
 
 
+const js = document.getElementById("JS");
 
-
-const js = document.getElementById('JS')
-
-js.addEventListener('click', function(){
-    window.open('/sub-paginas/javascript.html')
+js.addEventListener("click", function () {
+  window.open("/sub-paginas/javascript.html");
 });
 
+const html = document.getElementById("HTML");
 
-const html = document.getElementById('HTML')
-
-html.addEventListener('click', function(){
-    window.open('/sub-paginas/html.html')
+html.addEventListener("click", function () {
+  window.open("/sub-paginas/html.html");
 });
 
-const css = document.getElementById('CSS')
+const css = document.getElementById("CSS");
 
-css.addEventListener('click', function(){
-    window.open('/sub-paginas/css.html')
+css.addEventListener("click", function () {
+  window.open("/sub-paginas/css.html");
 });
 
-const computacao = document.getElementById('COMP')
+const computacao = document.getElementById("COMP");
 
-computacao.addEventListener('click', function(){
-    window.open('/sub-paginas/comp.html')
-})
+computacao.addEventListener("click", function () {
+  window.open("/sub-paginas/comp.html");
+});
 
+const python = document.getElementById("PYTHON");
 
-const python = document.getElementById('PYTHON')
+python.addEventListener("click", function () {
+  window.open("/sub-paginas/python.html");
+});
 
-python.addEventListener('click', function(){
-    window.open('/sub-paginas/python.html')
-})
+const c = document.getElementById("C");
 
-
-
-const c = document.getElementById('C')
-
-c.addEventListener('click', function(){
-    window.open('/sub-paginas/c.html')
-})
+c.addEventListener("click", function () {
+  window.open("/sub-paginas/c.html");
+});
