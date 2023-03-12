@@ -178,5 +178,14 @@ code {
   }
 }
 
+.container-pg-habilidades{
+  align-items: center;
+  display: flex;
+  max-width: 900px;
+}
 
-
+.header-habilidades{
+  margin-top: 20px;
+  width: 200px;
+  border: 1px dashed black;
+}
