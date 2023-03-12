@@ -25,6 +25,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/Benny/css/style.css" />
+    <link rel="stylesheet" href="/Benny/css/toggle.css">
  
 
     <!-- Favicon -->
@@ -40,10 +41,17 @@
       rel="stylesheet"
     />
 
-    <script src="js/index.js"></script>
+    
+      
+      const o = document.getElementById("hs");
+
+      o.addEventListener("click", function () {
+        window.alert("BJIS");
+      });
+    </script>
   </head>
   <body>
-    <title>JavaScript</title>
+    <title>Computação</title>
 
     <nav>
       <div class="logo">
@@ -62,7 +70,7 @@
     </nav>
 
     <div class="imagem-container-paginas">
-      <img class="nuvem" src="/Benny/img/nuvem.png" alt="nuvens" />
+      <img class="nuvem" src="/Benny/img/nuvem.png" alt="nuvens" id="hs"/>
       <img class="benny container-img" src="/Benny/img/settings.png" alt="ficharios" />
     </div>
 
@@ -79,29 +87,8 @@
 
 
 
-	<title>Sidebar Exemplo</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<header>
-		<h1>Exemplo de Sidebar</h1>
-	</header>
+   <script src="/Benny/js/index.js"></script>
 
-	<main>
-		<div id="conteudo">
-			<p>Este é o conteúdo principal da página.</p>
-			<p>Clique no botão abaixo para mostrar a sidebar:</p>
-			<button id="botao-sidebar">Mostrar Sidebar</button>
-		</div>
-
-		<div id="sidebar">
-			<h2>Informações da Sidebar</h2>
-			<p>Esta é a sidebar que aparece quando você clica no botão.</p>
-		</div>
-	</main>
-
-
-
-
+   
   </body>
 </html>

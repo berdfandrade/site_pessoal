@@ -1,5 +1,3 @@
-
-
 const js = document.getElementById("JS");
 
 js.addEventListener("click", function () {
