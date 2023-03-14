@@ -8,6 +8,11 @@
       rel="stylesheet"
     />
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/path/to/styles/default.min.css">
+
+    <!-- Highlight JS -->
+
+
 
     <!-- Bootstrap -->
 
@@ -22,7 +27,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/Benny/css/style.css" />
     <link rel="stylesheet" href="/Benny/css/habilidades.css">
- 
+
 
     <!-- Favicon -->
     <link
@@ -50,9 +55,9 @@
       </div>
 
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="contato.html">Contato</a></li>
+        <li><a href="/Benny/index.html">Início</a></li>
+        <li><a href="/Benny/sobre.html">Sobre</a></li>
+        <li><a href="/Benny/contato.html">Contato</a></li>
       </ul>
     </nav>
 
@@ -75,8 +80,40 @@
     <div class="linha-pontilhada"></div>
 
     <div class="container-pg-habilidades">
-      <div class="habilidade"></div>
+      <header class="header-habilidades">
+        O que eu aprendi?
+        <article class="paragrafo-habilidades">
+          Eu aprendi Javascript básico através do site <a class="blop" href="https://www.freecodecamp.org/">FreeCodeCamp</a>, e a experiência foi incrível. Fiz todo o curso de 300 horas de <a class ="blop" href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">Javascript</a>, que é totalmente prático, e além disso, concluí os 4 projetos que são necessários para obter a certificação. O curso me ensinou os conceitos fundamentais da linguagem de programação, como variáveis, funções, loops e condicionais, e me deu a oportunidade de praticar esses conceitos em exercícios e projetos reais. A plataforma é fácil de usar, com aulas bem estruturadas e desafios divertidos que me mantiveram motivado a continuar aprendendo. Agora, me sinto confiante para usar Javascript em meus próprios projetos e estou animado para continuar minha jornada de aprendizado com o FreeCodeCamp. 
+<br>
+<p class="artigo">
+  Eu criei um <a class="blop" href="https://github.com/berdfandrade/caderno_javascript">"caderno de Javascript"</a> que é um repositório no GitHub onde treinei e estudei a linguagem antes de começar os projetos práticos no FreeCodeCamp. O caderno contém diversos códigos que eu escrevi para praticar os conceitos que aprendi, além de anotações sobre as funções, variáveis e outros tópicos importantes de JavaScript. Essas anotações me ajudaram a revisar os conceitos e a entender melhor a linguagem. O GitHub é uma ótima plataforma para compartilhar projetos e trabalhar em equipe, e meu caderno de JavaScript foi uma forma de armazenar meu progresso e compartilhar meu conhecimento com outros desenvolvedores. Depois de criar o caderno e praticar bastante, me senti mais preparado para os desafios práticos do FreeCodeCamp.
+</p>
+        </article>
+      </header>
+      <header class="display-5">Desafios que tive durante os cursos
+        <article class="paragrafo-habilidades">
+        Tive vários obstáculos no caminho para aprender o básico da linguagem. Aqui está alguns dos problemas interessantes que tive pelo caminho, e a solução que consegui para eles.
+        </article>
+      </header>
+
     </div>
+<div class="code-div">
+  <pre><p class="language-html">
+    function caesarCipher(str, num) {
+    num = num % 26;
+    var lowerCaseStr = str.toLowerCase();
+    var alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
+    var newStr = "";
+  
+    for (var i = 0; i < lowerCaseStr.length; i++) {
+      var currentLetter = lowerCaseStr[i];
+      if (currentLetter === " ") {
+        newStr += currentLetter;
+        continue;
+      }
+
+  </pre>
+</div>
 
   </body>
 </html>
