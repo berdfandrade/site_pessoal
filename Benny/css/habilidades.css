@@ -147,13 +147,13 @@ ul {
   margin-top: -15px;
 }
 
-code {
+.codigo-habilidades {
   border-bottom: 1px dotted;
   font-family: monospace, serif;
   font-size: 13px;
 }
 
- code-css {
+.codigo-habilidades-css {
   border-bottom: 1px dotted;
   font-family: monospace, serif;
   color: rgb(19, 65, 105);
@@ -219,24 +219,21 @@ article{
   text-decoration: solid;
 }
 
+.mono{
+  font-family: 'Courier New', Courier, monospace;
+}
 .code-div {
-
-  border: 1px solid rgb(141, 141, 141);
-  background-color: rgb(118, 148, 161);
-  color: white;
-  padding: 10px;
-  justify-content: left;
   width: 90%;
   max-width: 800px;
   margin-top: 50px;
   margin-bottom: 50px;
-  height: auto;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto
 }
-.code-div pre {
-  margin: 0;
-}
-.code-div code {
-  font-family: "Courier New", Courier, monospace;
+
+@media (max-width: 768px) {
+  .code-div{
+    font-size: 95%;
+    width: 90%;
+  }
 }

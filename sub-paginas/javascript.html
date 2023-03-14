@@ -25,8 +25,11 @@
     <script src="js/index.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
     <link rel="stylesheet" href="/Benny/css/style.css" />
     <link rel="stylesheet" href="/Benny/css/habilidades.css">
+    <link rel="stylesheet" href="/Benny/css/prism.css">
+    
 
 
     <!-- Favicon -->
@@ -90,31 +93,43 @@
 </p>
         </article>
       </header>
-      <header class="display-5">Desafios que tive durante os cursos
+      <header class="header-habilidades">Desafios que tive durante os cursos
         <article class="paragrafo-habilidades">
         Tive vários obstáculos no caminho para aprender o básico da linguagem. Aqui está alguns dos problemas interessantes que tive pelo caminho, e a solução que consegui para eles.
         </article>
       </header>
 
     </div>
-<div class="code-div">
-  <pre><p class="language-html">
-    function caesarCipher(str, num) {
-    num = num % 26;
-    var lowerCaseStr = str.toLowerCase();
-    var alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
-    var newStr = "";
+    <header class="header-habilidades"></header>
+    <div class=" code-div">
+      <pre><code class=" language-javascript">
+        function mutation(arr) {
+    
+          // Organizando a string
+          arr.toString().toLowerCase(); 
+        
+          // Transformando em dois arrays de chars 
+          var arr1 = [[...arr[0]]];
+          var arr2 = [[...arr[1]]];
+        
+          // Buscando as letras de um array em outro; 
+          for(let i = 0; i < arr1.length; i++){    
+            for(let j = 0; j < arr2.length; j++){
+              return arr[i], arr[j];
+              }
+            }
+        
+        
+        }
+        
+        
+        mutation(["hello", "hey"]);
+        </code>
+      </pre>
+    </div>
+<script src="/Benny/js/prism.js">
   
-    for (var i = 0; i < lowerCaseStr.length; i++) {
-      var currentLetter = lowerCaseStr[i];
-      if (currentLetter === " ") {
-        newStr += currentLetter;
-        continue;
-      }
-
-  </pre>
-</div>
-
+</script>
   </body>
 </html>
 

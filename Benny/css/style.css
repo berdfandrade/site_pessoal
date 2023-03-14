@@ -2,18 +2,18 @@
 
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@300;400;500;600;700&display=swap");
 
-* {
+body {
+  zoom: 0.5;
   font-family: "PT Sans", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
-  /* ------ Cores ------ */
+/* :root {
   --body-color: rgb(255, 255, 255);
   --text-color: #707070;
-}
+} */
 
 .imagem-container {
   margin-top: 130px;
@@ -37,6 +37,7 @@
 
 
 .nuvem {
+  transition: 0.5s;
   text-align: center;
   margin-top: 100px;
   display: block;
@@ -103,16 +104,16 @@
   flex-wrap: wrap;
   padding: 20px 20px 20px 20px;
   border: 0.5px solid rgb(131, 131, 131);
-  background-color: transparent;
-  overflow: hidden;
-  transition: height 0.5s ease-in-out;
+  background-color: white;
+  transition: 0.4s;
 }
 
 .content:hover {
-  color: rgb(0, 0, 0);
-  background-color: #ffffff;
+  background-color: #e7e7e7;
   height: 100px;
+  scale: 104%
 }
+
 
 a {
   color: #000000;
@@ -136,13 +137,13 @@ a {
 
   .container-line-cima,
   .container-line {
-    max-width: 460px;
+    max-width: 80%
   }
 
   blockquote {
     margin-left: auto;
     margin-right: auto;
-    max-width: 460px;
+    max-width: 80%;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -467,8 +468,6 @@ margin-top: 30px;
   cursor: pointer;
   scale: 120%;
 }
-
-
 
 .certificado:hover{
   cursor: pointer;
