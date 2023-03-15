@@ -3,9 +3,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Oswald:wght@600&family=Paytone+One&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Paytone+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url(/Benny/css/animation/bounce.css);
+
 
 
 .container-sobre{
@@ -16,7 +17,7 @@
     margin-bottom: 100px; 
     display:flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 8px;
 }
 
 
@@ -42,6 +43,7 @@
 /* Card idade */
 .card-sobre-idade{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
     opacity: 1;
     background-image: radial-gradient(#cec9ff 2px, #fb6e85 2px);
     background-size: 40px 40px;
@@ -75,6 +77,7 @@
 
 
     .card-sobre-idade:hover{
+        
         scale: 110%;
         z-index: 99;
         box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,

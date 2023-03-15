@@ -1,0 +1,17 @@
+
+
+.projetos{
+    height: auto;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-projetos-benny{
+    width: 1000px;
+    height: auto;
+}
+
+.card-projetos-benny:hover{
+    
+}
