@@ -17,7 +17,7 @@
     margin-bottom: 100px; 
     display:flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 10px;
 }
 
 
@@ -50,7 +50,7 @@
     transition: 0.5s;
     padding: 10px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     flex: 1 0 180px;
 }
 
@@ -79,7 +79,7 @@
     .card-sobre-idade:hover{
         
         scale: 110%;
-        z-index: 99;
+        z-index: 9;
         box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,
         rgba(0, 0, 0, 0.09) 0px 4px 2px,
         rgba(0, 0, 0, 0.09) 0px 8px 4px, 
@@ -93,13 +93,13 @@
 .card-sobre-mim{
     background-color: #ffffff;
     opacity: 1;
-    background-image:  linear-gradient(30deg, #e3e3e3 12%, transparent 12.5%, transparent 87%, #e3e3e3 87.5%, #e3e3e3), linear-gradient(150deg, #e3e3e3 12%, transparent 12.5%, transparent 87%, #e3e3e3 87.5%, #e3e3e3), linear-gradient(30deg, #e3e3e3 12%, transparent 12.5%, transparent 87%, #e3e3e3 87.5%, #e3e3e3), linear-gradient(150deg, #e3e3e3 12%, transparent 12.5%, transparent 87%, #e3e3e3 87.5%, #e3e3e3), linear-gradient(60deg, #e3e3e377 25%, transparent 25.5%, transparent 75%, #e3e3e377 75%, #e3e3e377), linear-gradient(60deg, #e3e3e377 25%, transparent 25.5%, transparent 75%, #e3e3e377 75%, #e3e3e377);
+    background-image:  linear-gradient(30deg, #e3e3e3 12%, transparent 12.5%, transparent   87%, #e3e3e3 87.5%, #e3e3e3), linear-gradient(150deg, #e3e3e3 12%, transparent 12.5%, transparent 87%, #e3e3e3 87.5%, #e3e3e3), linear-gradient(30deg, #e3e3e3 12%, transparent 12.5%, transparent 87%, #e3e3e3 87.5%, #e3e3e3), linear-gradient(150deg, #e3e3e3 12%, transparent 12.5%, transparent 87%, #e3e3e3 87.5%, #e3e3e3), linear-gradient(60deg, #e3e3e377 25%, transparent 25.5%, transparent 75%, #e3e3e377 75%, #e3e3e377), linear-gradient(60deg, #e3e3e377 25%, transparent 25.5%, transparent 75%, #e3e3e377 75%, #e3e3e377);
     background-size: 80px 140px;
     background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
     transition: 0.5s;
     padding: 10px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #FFB8AF;
     flex: 1 0 300px;
 }
@@ -126,7 +126,7 @@
 
     .card-sobre-mim:hover{
         scale: 110%;
-        z-index: 99;
+        z-index: 9;;
         box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,
         rgba(0, 0, 0, 0.09) 0px 4px 2px,
         rgba(0, 0, 0, 0.09) 0px 8px 4px, 
@@ -147,7 +147,7 @@
     #e2d7ff 2px, #fefeff 2px, #fefeff);
     padding: 10px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: rgb(209, 255, 240);
     flex: 1 0 120px;
 }
@@ -172,7 +172,7 @@ h6{
 
 .card-sobre-formacao:hover{
     scale: 110%;
-    z-index: 99;
+    z-index: 9;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px,
     rgba(0, 0, 0, 0.09) 0px 8px 4px, 
@@ -189,20 +189,20 @@ h6{
     font-weight: 800;
     background-color: #ade0ff;
     opacity: 1;
-    background-image:  repeating-radial-gradient( circle at 0 0, 
-    transparent 0, #ade0ff 40px ), 
-    repeating-linear-gradient( #feffe155, #feffe1 );
+    background-color: #c0b3db;
+    background-image: 
+    url("https://www.transparenttextures.com/patterns/crissxcross.png");
     transition: 0.5s;
     padding: 10px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #b8f2ff;
     flex: 1 0 150px;
 }
 
     .card-sobre-hobbies:hover{
         scale: 110%;
-        z-index: 99;
+        z-index: 9;
         box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,
         rgba(0, 0, 0, 0.09) 0px 4px 2px,
         rgba(0, 0, 0, 0.09) 0px 8px 4px, 
@@ -229,13 +229,13 @@ h6{
     transition: 0.5s;
     padding: 10px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #b3daff;
     flex: 1 0 180px;
 }
     .card-sobre-curiosidades:hover{
         scale: 110%;
-        z-index: 99;
+        z-index: 9;
         box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,
         rgba(0, 0, 0, 0.09) 0px 4px 2px,
         rgba(0, 0, 0, 0.09) 0px 8px 4px, 
@@ -250,20 +250,19 @@ h6{
     font-weight: 800;
     background-color: #eff7ff;
     opacity: 1;
-    background: repeating-linear-gradient( 45deg,
-    #ddefff, #ddefff 20px, #eff7ff 20px, 
-    #eff7ff 100px );
+    background-color: #b6d0de;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
     transition: 0.5s;
     padding: 10px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #dff0ff;
     flex: 1 0 250px;
 }
 
     .card-sobre-idiomas:hover{
         scale: 110%;
-        z-index: 99;
+        z-index: 9;
         box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,
         rgba(0, 0, 0, 0.09) 0px 4px 2px,
         rgba(0, 0, 0, 0.09) 0px 8px 4px, 
@@ -277,7 +276,7 @@ h6{
     transition: 0.5s;
     padding: 10px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #fefeff;
     opacity: 1;
     background-color: #e4e4ff;
@@ -289,7 +288,7 @@ h6{
 
     .card-sobre-alem:hover{
         scale: 110%;
-        z-index: 99;
+        z-index: 9;
         box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,
         rgba(0, 0, 0, 0.09) 0px 4px 2px,
         rgba(0, 0, 0, 0.09) 0px 8px 4px, 
@@ -305,7 +304,7 @@ h6{
     transition: 0.5s;
     padding: 10px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #fdffce;
     opacity: 1;
     background: radial-gradient(circle, 
@@ -323,7 +322,7 @@ h6{
 
 .card-sobre-site:hover{
     scale: 110%;
-    z-index: 99;
+    z-index: 9;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px,
     rgba(0, 0, 0, 0.09) 0px 8px 4px, 

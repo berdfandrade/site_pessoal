@@ -1,17 +1,39 @@
 
 
 .projetos{
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px; 
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+
+.card-projetos{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    opacity: 1;
+    background-color: #9cf5f5;
+    background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+    transition: 0.5s;
+    padding: 10px;
     height: auto;
-    max-width: 80%;
-    margin: 0 auto;
+    border-radius: 10px;
+    flex: 1 0 180px;
+   
+    
+}
+
+.icon-projetos{
+    z-index: 10;
+    width: 100px;
+    height: auto;
     text-align: center;
 }
 
-.card-projetos-benny{
-    width: 1000px;
-    height: auto;
-}
-
-.card-projetos-benny:hover{
-    
+.card-projetos-titulo{
+    color: white;
 }

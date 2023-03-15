@@ -1,0 +1,85 @@
+
+
+.container-contato{
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px; 
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card-contato{
+    width: 280px;
+    height: 280px;
+}
+
+.card-contato-texto{
+    text-align: center;
+    
+}
+
+
+.flip-card {
+    color: #0f0f0f;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+    font-family: sans-serif;
+    flex: 1 0 200px
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+  }
+  
+  .flip-card-front {
+    background-color: #e5e5f7;
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image: linear-gradient(45deg, #d2d4ff 50%, #e5e5f7 50%);
+    background-size: 10px 10px;
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+  }
+  
+  .flip-card-back {
+    background-color: #87888c;
+    background-image: url("https://www.transparenttextures.com/patterns/reticular-tissue.png");
+    transform: rotateY(180deg);
+  }
