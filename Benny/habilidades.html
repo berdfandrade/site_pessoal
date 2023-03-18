@@ -27,6 +27,12 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/habilidades.css" />
 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    
+
     <!-- Favicon -->
     <link
       rel="shortcut icon"
@@ -77,20 +83,20 @@
     <!-- ============================================ -->
 
     <div class="caixola">
-      <div class="card-habilidades-javascript" id="JS">
+      <div class="card-habilidades-javascript" onclick="openNav()" id="JS">
         <h2 class="card-header">JavaScript</h2>
         <p class="card-paragrafo">
-          Eu tenho habilidades básicas em JavaScript, o que me permite entender
+          Eu tenho habilidades básicas em <strong>JavaScript</strong>, o que me permite entender
           e escrever código simples usando essa linguagem de programação.
         </p>
         <ul>
-          <li>Funções</code></li>
+          <li>Funções</li>
           <li>Classes</code></li>
-          <li>Algoritmos em JavaScript</code></li>
-          <li>Estruturas de controle de fluxo</code></li>
-          <li>Manipulação de elementos HTML</code></li>
-          <li>Operadores</code></li>
-          <li>Arrays</code></li>
+          <li>Algoritmos em JavaScript</li>
+          <li>Estruturas de controle de fluxo</li>
+          <li>Manipulação de elementos HTML</li>
+          <li>Operadores</li>
+          <li>Arrays</li>
         </ul>
       </div>
 
@@ -134,7 +140,7 @@
 
       <div class="card-habilidades-python" id="PYTHON">
         <h2 class="card-header">Python</h2>
-        <p class="card-paragrafo">Conhecimento bem básico da linguagem</p>
+        <p class="card-paragrafo">Conhecimento <strong>básico</strong> da linguagem</p>
 
         <ul>
           <li>Variáveis</li>
@@ -144,20 +150,84 @@
         </ul>
       </div>
 
-      <div class="card-habilidades-design" id="C">
-        <h2 class="card-header">Design</h2>
+      <div class="card-habilidades-c" id="C">
+        <h2 class="card-header">Linguagem C</h2>
         <p class="card-paragrafo">
-          Eu tenho uma grande experiência com design desde que eu tinha 12 anos
-          de idade. Desde então, venho aprimorando minhas habilidades e
-          adquirindo experiência em diversas ferramentas, incluindo o Adobe
-          Photoshop. Com muitos anos de prática, sinto-me muito à vontade em
-          trabalhar com essa ferramenta poderosa, criando e editando imagens com
-          facilidade e eficiência.
+          Conhecimento <strong>básico</strong> da linguagem</strong>. Desenvolvi alguns projetos, com ajuda de tutoriais
+
+          <ul>
+            <li>Variáveis</li>
+            <li>Sintaxe</li>
+            <li>Funções</li>
+            <li>Ponteiros</li>
+            <li>Estrutura de controle</li>
+            <li>Arrays</li>
+    
+          </ul>
+        </div>
+
+        <div id="mySidebar" class="sidebar">
+          <h1 class="card-header">
+            JavaScript
+          </h1>
+          <a class="close" onclick="closeNav()""></a>
+          <img class="js-icon-sidebar" src="img/js-file.png" alt="">
+          <div class="sub-texto-sidebar"></div>
+          <div class="mini-linha-pontilhada"></div>
+          <div class="texto-sidebar">
+            Eu aprendi Javascript básico através do site FreeCodeCamp, e a experiência foi incrível.  Fiz todo o curso de 300 horas de Javascript, que é totalmente prático, e além disso, concluí os 4   projetos que são necessários para obter a certificação.
+          <ul class="lista-sidebar">
+            <li>
+              Tipos primitivos
+            </li>
+            <li>
+              Arrays
+            </li>
+            <li>
+              Funções
+            </li>
+
+            <li>
+              Orientação a objetos
+            </li>
+            <li>
+              Operadores
+            </li>
+            <li>
+              Loops e intereções
+            </li>
+            <li>
+              Classes
+            </li>
+            <li>
+              JSON
+            </li>
+            <li>
+              Módulos em Javascript
+            </li>
+            <li>
+              Bibliotecas externas
+            </li>
+            <li>
+              <code class="code-sidebar">async</code>/<code class="code-sidebar">await</code>
+            </li>
+          </ul>
+          </div>
+          <div class="mini-divisoria"></div>
+          <p class="ver-mais">Você pode saber mais sobre a minha jornada de aprendizado em Javascript em ver mais</p>
+        </div>
+        
+        <div id="main">
+          <button class="openbtn" onclick="openNav()" #id="butola">&#9776; Open Sidebar</button>
+         
+        </div>
+          
+          <!-- Eu decidi aprender a linguagem C para entender melhor as bases da programação.  Aprendendo C, consegui uma compreensão mais aprofundada sobre como a memória é gerenciada, como as estruturas de controle funcionam e como os programas interagem com o sistema operacional. -->
         </p>
       </div>
+      
     </div>
-    <script src="js/habilidades.js">
-    </script>
+    <script src="js/habilidades.js"></script>
     <!-- =========================================== -->
   </body>
 
