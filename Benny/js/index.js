@@ -36,15 +36,15 @@
 // });
 
 
-const botaoSidebar = document.getElementById('botao-sidebar');
-const sidebar = document.getElementById('sidebar');
+// const botaoSidebar = document.getElementById('botao-sidebar');
+// const sidebar = document.getElementById('sidebar');
 
-botaoSidebar.addEventListener('click', function() {
-	sidebar.classList.toggle('mostrar');
-});
+// botaoSidebar.addEventListener('click', function() {
+// 	sidebar.classList.toggle('mostrar');
+// });
 
-var btn = document.querySelector('.toggle');
-var btnst = true;
+// var btn = document.querySelector('.toggle');
+// var btnst = true;
 
 btn.onclick = function() {
   if(btnst == true) {

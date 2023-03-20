@@ -93,6 +93,7 @@
 .card-habilidades-python {
 	transition: 0.1s ease-in-out;
 	margin-left: 0;
+  padding-right: 20px;
 	margin-right: auto;
 	background-color: #94ff565d;
 	height: auto;
@@ -114,7 +115,7 @@
 	height: auto;
 	border-radius: 5px;
 	border: 2px solid rgb(90, 90, 90);
-	flex: 1 0 250px;
+	flex: 1 0 320px;
   }
 
   .card-habilidades-c:hover {
@@ -220,6 +221,7 @@ article{
 .mono{
   font-family: 'Courier New', Courier, monospace;
 }
+
 .code-div {
   width: 90%;
   max-width: 800px;
@@ -244,19 +246,18 @@ article{
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   z-index: 1; /* Stay on top */
   top: 0;
-  right: 0;
+  left: 0;
   background-color: #ffffff; 
   overflow-x: hidden; 
   padding-top: 60px;
-  /* transition: 0.4s;  */
+  transition: 0.4s; 
 }
 
 /* The sidebar links */
 .sidebar a {
-  
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -295,13 +296,14 @@ article{
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+/* @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
-}
+} */
 
 
-.js-icon-sidebar{
+
+.icon-sidebar{
   margin-top: 20px;
   text-align: center;
   margin-left: 35%;
@@ -331,6 +333,7 @@ article{
 }
 
 .ver-mais{
+  margin-right: 8%;
   font-size: 13px;
   color: #8a8a8a;
   margin-left: 10%;
@@ -371,24 +374,30 @@ article{
   color: #5fdeff
 }
 
+.arrow-sidebar{
+  position: absolute;
+  right: 30px;
+}
+
 /* Botão de fechar side-bar */
 .close {
+
   position: absolute;
   right: 20px;
-  top: 65px;
-  width: 10px;
+  top: 75px;
+  width: 20px;
   height: auto;
   opacity: 0.3;
 }
 .close:hover {
+  transition: 1ms;
   opacity: 1;
 }
 .close:before, .close:after {
-  
   position: absolute;
   left: 15px;
   content: ' ';
-  height: 20px;
+  height: 30px;
   width: 2px;
   background-color: #1d1d1d;
 }
