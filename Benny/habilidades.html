@@ -27,10 +27,10 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/habilidades.css" />
 
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
     
 
     <!-- Favicon -->
@@ -70,7 +70,7 @@
     </div>
 
     <div class="container">
-      <h1 class="display-3">Habilidades</h1>
+      <h1 class="display-3 animate__animated animate__bounce">Habilidades</h1>
     </div>
 
     <div class="descricao-pagina">
@@ -83,7 +83,7 @@
     <!-- ============================================ -->
 
     <div class="caixola">
-      <div class="card-habilidades-javascript" onclick="openNav()" id="JS">
+      <div class="card-habilidades-javascript " onclick="openNav()" id="JS">
         <h2 class="card-header">JavaScript</h2>
         <p class="card-paragrafo">
           Eu tenho habilidades básicas em <strong>JavaScript</strong>, o que me permite entender
@@ -139,7 +139,7 @@
       </div>
 
       <div class="card-habilidades-python" id="PYTHON">
-        <h2 class="card-header">Python</h2>
+        <h2 class="card-header">Node.Js</h2>
         <p class="card-paragrafo">Conhecimento <strong>básico</strong> da linguagem</p>
 
         <ul>
@@ -151,7 +151,7 @@
       </div>
 
       <div class="card-habilidades-c" id="C">
-        <h2 class="card-header">Linguagem C</h2>
+        <h2 class="card-header">React</h2>
         <p class="card-paragrafo">
           Conhecimento <strong>básico</strong> da linguagem</strong>. Desenvolvi alguns projetos, com ajuda de tutoriais
 
@@ -173,7 +173,7 @@
             JavaScript
           </h1>
           <a class="close" onclick="closeNav()"></a>
-          <img class="icon-sidebar" src="img/js-file.png" alt="">
+          <img class="icon-sidebar"src="img/js-file.png" alt="js-icon">
           <div class="sub-texto-sidebar"></div>
           <div class="mini-linha-pontilhada"></div>
           <div class="texto-sidebar">
@@ -226,7 +226,7 @@
             CSS
           </h1>
           <a class="close" onclick="closeNav_css()"></a>
-          <img class="icon-sidebar" src="img/css-file-format.png" alt="">
+          <img class="icon-sidebar" src="img/css-file-format.png" alt="css-icon">
           <div class="sub-texto-sidebar"></div>
           <div class="mini-linha-pontilhada"></div>
           <div class="texto-sidebar">
@@ -270,7 +270,7 @@
           </ul>
           </div>
           <div class="mini-divisoria"></div>
-          <p class="ver-mais">Você pode saber mais sobre a minha jornada de aprendizado em Javascript em ver mais</p>
+          <p class="ver-mais">Você pode saber mais sobre a minha jornada de aprendizado em CSS em ver mais</p>
           <img class="arrow-sidebar"src="img/right-arrow-alt-regular-24.png" alt="">
         </div>
 
@@ -280,7 +280,7 @@
             HTML
           </h1>
           <a class="close" onclick="closeNav_html()"></a>
-          <img class="icon-sidebar" src="img/html-file.png" alt="">
+          <img class="icon-sidebar" src="img/html-file.png" alt="html-icon">
           <div class="sub-texto-sidebar"></div>
           <div class="mini-linha-pontilhada"></div>
           <div class="texto-sidebar">
@@ -313,10 +313,7 @@
               Formulários
             </li>
           </ul>
-          </div>
-          <div class="mini-divisoria"></div>
-          <p class="ver-mais">Você pode saber mais sobre a minha jornada de aprendizado em Javascript em ver mais</p>
-          <img class="arrow-sidebar"src="img/right-arrow-alt-regular-24.png" alt="">
+          </div> 
         </div>
         
 
@@ -369,16 +366,15 @@
             </li>
           </ul>
           </div>
-          <div class="mini-divisoria"></div>
-          <p class="ver-mais">Você pode saber mais sobre a minha jornada de aprendizado em Javascript em ver mais</p>
-          <img class="arrow-sidebar"src="img/right-arrow-alt-regular-24.png" alt="">
+          
+
         </div>
 
 
         <!-- PYTHON -->
         <div id="sideBarPYTHON" class="sidebar">
           <h1 class="card-header">
-            Python
+            Node.js
           </h1>
           <a class="close" onclick="closeNav_python()"></a>
           <img class="icon-sidebar" src="img/python.png" alt="">
@@ -423,15 +419,15 @@
           </ul>
           </div>
           <div class="mini-divisoria"></div>
-          <p class="ver-mais">Você pode saber mais sobre a minha jornada de aprendizado em Javascript em ver mais</p>
-          <img class="arrow-sidebar"src="img/right-arrow-alt-regular-24.png" alt="">
+          <p class="ver-mais">Você pode saber mais sobre a minha jornada de aprendizado em Python em ver mais</p>
+        
         </div>
         
         
         <!-- linguagem C -->
         <div id="sideBarC" class="sidebar">
           <h1 class="card-header">
-            Linguagem C
+            React
           </h1>
           <a class="close" onclick="closeNav_C()"></a>
           <img class="icon-sidebar" src="img/c-.png" alt="">
@@ -478,7 +474,7 @@
           </ul>
           </div>
           <div class="mini-divisoria"></div>
-          <p class="ver-mais">Você pode saber mais sobre a minha jornada de aprendizado em Javascript em ver mais</p>
+          <p class="ver-mais">Você pode saber mais sobre a minha jornada de aprendizado na Linguagem C em ver mais</p>
           <img class="arrow-sidebar"src="img/right-arrow-alt-regular-24.png" alt="">
         </div>
         </div>
@@ -492,5 +488,11 @@
     <!-- =========================================== -->
   </body>
 
+  <footer class="footer-paginas">
+    <p>Entre em contato!</p>
+    <p>Rua ômega, 355, ap. 301</p>
+    <p>Jardim América, Belo Horizonte - MG</p>
+    <p><a href="mailto:berdfandrade@gmail.com">berdfandrade@gmail.com</a></p>
+  </footer>
   <!-- Inserir o footer depois -->
 </html>
